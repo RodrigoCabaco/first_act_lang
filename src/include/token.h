@@ -10,7 +10,7 @@ typedef struct TOKEN_STRUCT
         TOKEN_SEMI, // ;
         TOKEN_LPAREN, // (
         TOKEN_RPAREN // )
-    } type;
+    } type; // a enum type 
     char* value;
 } token_T;
 // init token;
