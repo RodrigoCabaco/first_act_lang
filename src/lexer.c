@@ -4,6 +4,12 @@ lexer_T* init_lexer(char* contents){
     //alocate size for the lexer
     lexer_T* lexer = calloc(1, sizeof(struct LEXER_STRUCT));
     // type* name = calloc(times, sizeof(struct TYPE_STRUCT));
+    //define elements
+    lexer->contents = contents;
+    //0, since currenct character = 0;
+    lexer->i = 0;
+    //define the currenct character to be the character at index of current
+    lexer->c = contents[lexer->i];
 };
 
 //Move c pointer to next character if possible
