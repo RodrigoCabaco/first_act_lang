@@ -97,6 +97,7 @@ token_T* lexer_collect_id(lexer_T* lexer)
     char* value = calloc(1, sizeof(char));
     //declare as array
     value[0] = '\0';
+    //while its anything alphanum
     while(isalnum(lexer->c)){
         //return the current char as str
         char* s = lexer_get_current_char_as_string(lexer);
