@@ -1,0 +1,2 @@
+1 - Makefile, create project files
+2 - Start lexer - see src/include/lexer.h, create token.h and define basic tokens

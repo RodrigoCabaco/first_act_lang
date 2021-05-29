@@ -1,0 +1,2 @@
+.h -> define structs, basic oncedef
+.c -> override -> define
