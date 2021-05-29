@@ -1,2 +1,9 @@
 .h -> define structs, basic oncedef
 .c -> override -> define
+\0 -> null char
+compile all c files
+
+procedure to defining a struct:
+define struct with methods in a defince once call in a .h file
+inside any .c file initialize the methods and its values;
+done!

@@ -1,7 +1,7 @@
 //basic define-once def
 #ifndef TOKEN_H
 #define TOKEN_H
-typedef struct  TOKEN_STRUCT
+typedef struct TOKEN_STRUCT
 {
     enum{
         TOKEN_ID, // var "name" -> id = "something";
